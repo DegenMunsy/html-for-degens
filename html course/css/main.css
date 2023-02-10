@@ -1,0 +1,10 @@
+/* set font size to 22px for the doc */
+html {
+    font-size: 22px;
+}
+/* change background to dark + font color to white */
+body {
+    background-color: #333;
+    color: whitesmoke;
+}
+/* Try your own styles on the <h1>, ,<img> */

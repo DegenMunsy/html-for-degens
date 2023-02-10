@@ -1,0 +1,103 @@
+<!-- sets the type of page we create -->
+<!DOCTYPE html>
+
+<!-- sets the language on the page to english -->
+<html lang="en">
+
+<!-- stores the 'metadata' of the page behind the scenes -->
+<head>
+
+    <!-- set the character type for the webpage (this is the standard) -->
+    <meta charset="UTF-8">
+
+    <!-- sets the internet to use the best versions of the page possible -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- sets the internet to render the page correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- add a title to your webpage tab -->
+    <title>Frontend of My First dApp</title>
+
+    <!-- add an icon beside your title on the tab -->
+    <link rel="icon" href="img/fire1.jpg" type="image/x-icon">
+
+    <!-- link the css styles to the html page -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- use clean spacing because you will get jammed up with trash tight code -->
+</head>
+
+<body>
+    <!-- header section starts here -->
+    <header>
+        <!-- title of the page -->
+        <h1>Ghost Gang Swap</h1>
+        <!-- navigation bar -->
+        <nav>
+            <!-- list of navigation links -->
+            <ul>
+                <!-- navigation link 1 -->
+                <li>
+                    <!-- link to home page -->
+                    <a href="/">Home</a>
+                </li>
+                <!-- navigation link 2 -->
+                <li>
+                    <!-- link to mint.html file -->
+                    <a href="mint.html">Mint</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- horizontal line -->
+        <hr>
+    </header>
+
+    <!-- main content section -->
+    <main>
+    <!-- section for image -->
+     <section>
+         <!-- image of tacos -->
+          <img src="img/gg2.png" alt="Ghost Gang" title="Ghost Gang logo" width="150" height="150">
+     </section>
+     <!-- section for swap form -->
+     <section id="swap-section">
+           <!-- heading for swap section -->
+           <h2>Swap your favourite tokens with Ghost Gang Swap</h2>
+           <!-- list for 'swap from' option -->
+           <ul>Swap From
+              <li>
+                Solana
+              </li>
+           </ul>
+           <!-- list for 'swap to' option -->
+           <ul>Swap To
+             <li>
+                Bonk
+             </li>
+           </ul>
+           <!-- form for swapping tokens -->
+           <form action="" method="get" class="form-example">
+             <!-- input for solana amount -->
+             <div class="form-example">
+                <label for="sol-amount">Amount of Sol: </label>
+                <input type="text" name="name" id="name" required>
+             </div>
+             <!-- submit button for form -->
+             <div class="form-example">
+                <input type="submit" value="Swap!">
+             </div>
+           </form>
+     </section>
+    </main>
+<!-- horizontal line -->
+<hr>
+<!-- footer section -->
+<footer>
+    <!-- copyright text -->
+    <p>Cash Munsy &copy;</p>
+</footer>
+
+</body>
+
+</html>
